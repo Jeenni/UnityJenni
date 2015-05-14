@@ -1,15 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Temporizador.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MovimientoShoot.cs">
     <Files>
-      <File FileName="Assets\Disparador.js" Line="5" Column="35" />
-      <File FileName="Assets\Camara.cs" Line="1" Column="1" />
-      <File FileName="..\..\CerdoAgridulce-master\UnityProject\Assets\Scripts\GameState.cs" Line="1" Column="1" />
-      <File FileName="..\..\CerdoAgridulce-master\UnityProject\Assets\Scripts\Enemies\Enemy.cs" Line="1" Column="1" />
-      <File FileName="..\..\CerdoAgridulce-master\UnityProject\Assets\triger.cs" Line="1" Column="1" />
-      <File FileName="..\..\CerdoAgridulce-master\UnityProject\Assets\Scripts\Enemies\EnemyAggro.cs" Line="1" Column="1" />
-      <File FileName="..\..\CerdoAgridulce-master\UnityProject\Assets\Scripts\PlayerSwitchManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Temporizador.js" Line="11" Column="1" />
+      <File FileName="Assets\Shoot.cs" Line="26" Column="19" />
+      <File FileName="Assets\MovimientoShoot.cs" Line="16" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
