@@ -97,7 +97,7 @@ public class Camara : MonoBehaviour
 		Ray ray = Camera.main.ScreenPointToRay(screenPoint);
 		RaycastHit hit;
 		
-		int layer = (1 << LayerMask.NameToLayer("Scenario")) | (1 << LayerMask.NameToLayer("Enemies"));
+		int layer = (1 << LayerMask.NameToLayer("Scenario"))| (1 << LayerMask.NameToLayer("Enemies"));
 		
 		if(Physics.Raycast(ray, out hit, 99999.9f, layer)) return hit.point;
 		return Vector3.zero;
