@@ -61,6 +61,7 @@
      <Compile Include="Assets\RecursosComohacerpeatones\RecursosComohacerpeatones\Movement\hoMove.cs" />
      <Compile Include="Assets\RecursosComohacerpeatones\RecursosComohacerpeatones\Movement\iMove.cs" />
      <Compile Include="Assets\RecursosComohacerpeatones\RecursosComohacerpeatones\PixelPlacement\iTween.cs" />
+     <Compile Include="Assets\Scripts\NPC_Dialog.cs" />
      <Compile Include="Assets\Shoot.cs" />
      <Compile Include="Assets\Skidmarks.cs" />
      <Compile Include="Assets\Wheel.cs" />
