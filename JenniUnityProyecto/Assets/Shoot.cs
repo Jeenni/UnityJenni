@@ -31,11 +31,12 @@ public class Shoot : MonoBehaviour {
 			GameObject proj = Instantiate(Resources.Load("Bala2"), 
 			                              origin, Quaternion.identity) as GameObject;
 			
-			Vector3 shootDir = (Camara.GetLookPoint() + origin).normalized;
+			Vector3 shootDir = (Camara.GetLookPoint() - origin).normalized;
 			/*if(target != null) 
 			{
 				shootDir = (target.transform.position - origin).normalized;
 			}*/
+
 			
 			proj.GetComponent<Projectile>().dir = shootDir;
 			proj.transform.forward = shootDir; 
